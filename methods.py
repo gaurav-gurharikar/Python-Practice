@@ -11,5 +11,6 @@ class Student:
         print("Hello")
 
 s1 = Student("Abc")
-s1.hello()
+s1.print_name()
+Student.hello()
 
