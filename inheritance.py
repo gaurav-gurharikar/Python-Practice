@@ -33,3 +33,18 @@ s1 = Son()
 s1.trait1()
 s1.trait2()
 s1.trait3()
+
+#Multiple inheritance
+class A:
+    a = "This is class A"
+
+class B:
+    b = "This is class B"
+
+class C(A, B):
+    c = "This is class C"
+
+c1 = C()
+print(c1.a)
+print(c1.b)
+print(c1.c)
